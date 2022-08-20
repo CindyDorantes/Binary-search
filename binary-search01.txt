@@ -1,0 +1,43 @@
+25
+5 x 5
+25/n 
+25/25 = 1
+25/24 =1.04
+25/5 = 5
+16/4 = 4
+
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 
+
+dividend / divisor = result
+dividend = 25
+divisor = 5
+result = 5
+
+divisor is the square root if it is equal to the result
+try to divide the SQR by divisor that are <SQR
+consider a range of divisor: 1 - (SQR-1)
+
+i.e.
+SQR = 25
+Range = 1 - (SQR -1) = 1 -24
+first trial will be the divisor that is at the middle of the range
+
+25 / [(1 + 24)/ 2] = 25 / 12.5
+
+If the the divisor is not an integer, round it 
+
+25 / 13 = 1.9 
+
+is divisor(13) equal to result(1.9)? NO
+we split again:
+   is divisor greater that result? 
+	if yes then the new range should be (1 - divisor)
+
+new range (1 - 13)
+ next trial
+25 / [(1-13)/2] = 25 / 7 = 3.6
+
+is divisor(7) equal to result(3.6)? NO
+
+
+receive a square number SQR

@@ -1,0 +1,34 @@
+
+a variable called SQR that has the square number
+a variable called START	that has the start of the range
+a variable called END that has the end of the range
+a variable called DIVISION that will be the middle of the range and the
+   the number the SQR will be divided by
+a variable called RESULT that will have the result of the divission and 
+   that will be compared with DIVISION
+ 
+SQR = 16
+
+Set the range
+  set START = 1 = [1]
+  set END = (SQR -1) = [15]
+
+ 3 4 5 
+---> returb here
+
+Set Division --> this is the middle point of the binary search
+  DIVISION = [( START + END ) / 2 ] = [3 + 5]/2 = [4]
+
+Set RESULT 
+  RESULT = SQR / DIVISION = [16] / [4] = [4]
+
+If the RESULT[4] is equal to DIVISION [4]
+   return the division
+
+else if DIVISION [3] is greater than result [5.3]
+   then set END = DIVISION = [5]
+   return to beginnig 
+
+else if DIVISION [3] is less than the result [5.3]
+  then set START = DIVISION = [3]
+  return to beginning
